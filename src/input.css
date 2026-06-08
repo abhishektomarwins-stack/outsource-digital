@@ -102,6 +102,10 @@
   animation: marquee 25s linear infinite;
   width: max-content;
 
+  &:hover {
+    animation-play-state: paused;
+  }
+
   @media (max-width: 991px) {
     .timeline-node::after {
       content: "";
